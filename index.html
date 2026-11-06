@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nick Pinto · Product &amp; Technology Leader</title>
+<meta name="description" content="Nick Pinto is Chief Product &amp; Technology Officer at Flexible, a private company that owns and operates a group of Canadian businesses. Product and technology leader, and a builder at heart.">
+<meta name="author" content="Nick Pinto">
+<link rel="canonical" href="https://www.npinto.ca/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.npinto.ca/">
+<meta property="og:title" content="Nick Pinto · Product &amp; Technology Leader">
+<meta property="og:description" content="Nick Pinto is Chief Product &amp; Technology Officer at Flexible, a private company that owns and operates a group of Canadian businesses. Product and technology leader, and a builder at heart.">
+<meta name="twitter:card" content="summary">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61163401-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-61163401-1');
-</script>
+<link rel="icon" href="img/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
 <!-- FullStory tag -->
 <script>
@@ -31,241 +35,130 @@
   })(window,document,window['_fs_namespace'],'script','user');
 </script>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nick Pinto - Product | Technology | Strategy</title>
-<meta name="description" content="Nick Pinto - Product Leader based in Toronto, ON">
-<meta name="author" content="Nick Pinto">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single reading column (~38em) with section labels hung in the left margin on wide screens; labels stack above sections on phones. */
+:root{
+  --paper:#FFFFFF;
+  --ink:#1A1A19;
+  --ink-2:#55544F;
+  --ink-3:#8C8A83;
+  --rule:#E6E5E0;
+  --link:#2348C9;
+  --link-line:#B9C5F0;
+  --live:#16925D;
+  --f-text:"Source Serif 4", "Iowan Old Style", Charter, Georgia, serif;
+  --f-meta:"Geist Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+:root{color-scheme:light}
 
-<!-- Favicons -->
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-text);font-size:19px;line-height:1.62;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-optical-sizing:auto}
+::selection{background:var(--link-line)}
+p,h1,h2,ul,ol,dl{margin:0}
+a{color:var(--link);text-decoration:underline;text-decoration-color:var(--link-line);text-decoration-thickness:1px;text-underline-offset:.22em;transition:text-decoration-color .2s}
+a:hover{text-decoration-color:var(--link)}
+:focus-visible{outline:2px solid var(--link);outline-offset:3px;border-radius:3px}
 
-<!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+.page{max-width:58rem;margin:0 auto;padding-left:max(20px, env(safe-area-inset-left, 0px));padding-right:max(20px, env(safe-area-inset-right, 0px));padding-block:72px 64px}
+.row{display:grid;grid-template-columns:9rem minmax(0,38rem);column-gap:3rem}
+@media (max-width:760px){.row{grid-template-columns:minmax(0,1fr)}}
+.meta,.lab{font-family:var(--f-meta);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);font-weight:400}
+.lab{padding-top:.42em}
+@media (max-width:760px){.lab{padding-top:0;margin-bottom:.9rem}}
 
-<!-- Stylesheet -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
+header.row{align-items:center;margin-bottom:4.5rem}
+.mark{display:block;width:9rem;line-height:0}
+.mark img{display:block;width:100%;height:auto}
+@media (max-width:760px){header.row{margin-bottom:3rem}}
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+h1{font-weight:600;font-size:clamp(2.2rem,5.4vw,3.1rem);line-height:1.08;letter-spacing:-.02em}
+.sub{margin-top:.9rem;font-size:clamp(1.25rem,2.6vw,1.5rem);line-height:1.35;color:var(--ink-2)}
+.lede{display:flex;flex-direction:column;gap:1.1rem;margin-top:1.6rem;color:var(--ink)}
 
+section.row{padding-top:2.6rem;margin-top:2.6rem;border-top:1px solid var(--rule)}
+.body{display:flex;flex-direction:column;gap:1rem}
+
+
+.cv{display:flex;flex-direction:column}
+.cv > div{display:grid;grid-template-columns:minmax(0,11.5rem) minmax(0,1fr);gap:.2rem 1.4rem;padding:.85rem 0;border-bottom:1px solid var(--rule)}
+.cv > div:first-child{padding-top:0}
+.cv > div:last-child{border-bottom:0}
+@media (max-width:560px){.cv > div{grid-template-columns:minmax(0,1fr)}}
+.cv dt{font-weight:600;line-height:1.35}
+.cv dt small{display:block;font-weight:400;font-size:.82rem;color:var(--ink-3);margin-top:.15rem}
+.cv dd{margin:0;color:var(--ink-2);font-size:.95rem;line-height:1.5}
+.cur{display:inline-flex;align-items:center;gap:.35rem;font-family:var(--f-meta);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;color:var(--live);margin-left:.4rem;vertical-align:.15em;font-weight:500}
+.cur::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--live)}
+
+.list{list-style:none;padding:0;display:flex;flex-direction:column}
+.list li{display:flex;justify-content:space-between;align-items:baseline;gap:1.2rem;padding:.6rem 0;border-bottom:1px dotted var(--rule)}
+.list li:last-child{border-bottom:0}
+.list .t{min-width:0}
+.list .t b{font-weight:600}
+.list .t span{color:var(--ink-2)}
+.list .meta{white-space:nowrap;flex:none}
+
+.links{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;font-family:var(--f-meta);font-size:.85rem}
+
+</style>
 </head>
+<body>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<div class="page" id="top">
 
-<!-- Header -->
-<header id="header">
-  <div class="intro">
-    <div class="container">
-      <div class="row">
-        <div class="intro-text">
-          <h1>Hey, I'm <span class="name">Nick</span></h1>
-          <p>I build successful products and craft user experiences that customers love</p>
-          <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
+  <header class="row">
+    <a class="mark" href="#top" aria-label="Nick Pinto, home"><img src="img/Logo.png" width="740" height="130" alt="Nick Pinto"></a>
+  </header>
+
+  <div class="row">
+    <span class="lab">Hello</span>
+    <div>
+      <h1>Hey, I'm Nick.</h1>
+      <p class="sub">I'm a product and technology leader, and a builder at heart.</p>
+      <div class="lede">
+        <p>I'm Chief Product &amp; Technology Officer at <a href="#work">Flexible</a>, a private company that owns and operates a group of Canadian businesses. I work across them to find where product, technology, data and AI can make a real impact, then roll up my sleeves and build it with the teams who run them.</p>
+        <p>Before that I led product at <a href="#work">Shopify</a> on buyer identity and Customer Accounts. Over 20 years I've worked across technology, strategy, delivery and operations, 14 of them leading product, from 0→1 launches to platforms used by millions.</p>
       </div>
     </div>
   </div>
-</header>
 
-<!-- Navigation -->
-<div id="nav">
-  <nav class="navbar navbar-custom">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
-        <a class="navbar-brand page-scroll" href="#page-top"><img src="img/Logo.png" style="height: 3rem" alt="Nick Pinto logo"></a> </div>
-      
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-        <ul class="nav navbar-nav">
-          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-          <li class="hidden"> <a href="#page-top"></a> </li>
-          <li> <a class="page-scroll" href="#about">About</a> </li>
-          <li> <a class="page-scroll" href="#skills">Skills</a> </li>
-          <li> <a class="page-scroll" href="#experience">Experience</a> </li>
-          <li> <a class="page-scroll" href="#contact">Contact</a> </li>
-        </ul>
-      </div>
+  <section class="row" id="builds">
+    <span class="lab">Building things</span>
+    <div class="body">
+      <p>I still build my own apps and games at <a href="https://www.uproarstudios.ca">Uproar Studios</a>, run my own ecommerce brand, <a href="https://joshuaandclark.com">Joshua &amp; Clark</a>, and teach product management at <a href="https://productschool.com">Product School</a>.</p>
+      <ul class="list">
+        <li><span class="t"><b>Minesweeper Reloaded</b> <span>— the classic, rebuilt for iPhone. Four modes, eight themes, no ads.</span></span><span class="meta"><a href="https://apps.apple.com/ca/app/minesweeper-reloaded/id6761346134">App Store</a></span></li>
+        <li><span class="t"><b>Chicken Wars</b> <span>— a card game for 2–4 players where chicken factions battle for the crown.</span></span><span class="meta">Card game · Soon</span></li>
+        <li><span class="t"><b>Family Mission</b> <span>— a daily family ritual that helps kids practice being kinder, more curious and braver.</span></span><span class="meta">App · In progress</span></li>
+        <li><span class="t"><b>Joshua &amp; Clark</b> <span>— premium wallets, designed in Canada.</span></span><span class="meta"><a href="https://joshuaandclark.com">Shop</a></span></li>
+      </ul>
     </div>
-  </nav>
-</div>
+  </section>
 
-<!-- About Section -->
-<div id="about">
-  <div class="container">
-    <div class="section-title text-center center">
-      <h2>What Makes Me Tick</h2>
-    </div>
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <div class="about-text">
-          <p>I’m a <strong>problem solver</strong>, simple as that. I love taking ideas from inception, to shipping innovative products that customer love and that have a tangible impact on the world.  On most days, this means spending my time translating ambiguous things into clear structured plans that enable teams to learn and drive business impact.  As a product leader, I believe strong product vision, storytelling and engaging customer experiences is what builds great products and that takes equal parts art and science.  I'm <strong>forever curious</strong> and enjoy getting inside customer's minds to learn the why behind their words. I get energy building high performance teams and helping them find success through strong communication, radical candor and coaching. I will always be an Engineer at heart.</p>
-          <p>I currently work at <a href="https://www.shopify.com" target="_blank">Shopify</a>, where we help make commerce better for everyone and unlock the next generation of entrepreneurs. My focus is on building a world-class customer accounts product that saves time for merchants and builds better relationships with their buyers. Prior to Shopify, I’ve spent most of my time at <strong>high-growth startups</strong> focussed on building SaaS products in Telecom, Technology, Media, Retail and Commerce sectors. The last few startups I’ve worked at were focussed on using <strong>bleeding edge AI/ML technology</strong> to solve complex problems. I’ve also spent some time as a Management Consultant, driving product vision and direction for large Fortune 500 companies.</p>
-          <p>In my spare time, I'm the Founder & CEO of <a href="http://www.joshuaandclark.com" target="_blank">Joshua and Clark</a>, a premium wallet ecommerce brand. I'm a dad who loves to play basketball, guitar and video games, but also dabble in DJing 90s hip hop and grunge.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+  <section class="row" id="work">
+    <span class="lab">Experience</span>
+    <dl class="cv">
+      <div><dt>Flexible<span class="cur">Now</span><small>Chief Product &amp; Technology Officer</small></dt><dd>Hands-on across a group of operating businesses, finding where product, technology, data and AI move the numbers.</dd></div>
+      <div><dt>Shopify<small>Product Lead</small></dt><dd>Buyer identity, authentication and Customer Accounts, including the Customer Account API that partners build on.</dd></div>
+      <div><dt>Integrate.ai<small>Director of Product</small></dt><dd>AI and machine-learning products for large consumer businesses.</dd></div>
+      <div><dt>Globalive Technology<small>Head of Product</small></dt><dd>Product across new technology ventures in a high-growth group.</dd></div>
+      <div><dt>Joshua &amp; Clark<small>Founder &amp; CEO</small></dt><dd>Started and run a premium wallet brand: product, supply chain, ecommerce and the P&amp;L.</dd></div>
+      <div><dt>Globalive Communications<small>Head of Product &amp; Marketing</small></dt><dd>Product and marketing for consumer telecom.</dd></div>
+      <div><dt>Accenture<small>Management Consulting Manager</small></dt><dd>Strategy and digital transformation for Fortune 500 companies.</dd></div>
+    </dl>
+  </section>
 
-<!-- Skills Section -->
-<div id="skills">
-    <div class="container">
-      <div class="section-title text-center center">
-        <h2>What I Do</h2>
-      </div>
-      <div class="col-md-8 col-md-offset-2 text-center">
-      <div class="skills-text">
-        <p>I've helped customers across many industries develop the strategy, build and deliver truly unique digital product experiences.  My areas of expertise are:</p>
-      </div></div>
-      <div class="row">
+  <section class="row" id="contact">
+    <span class="lab">Contact</span>
+    <div class="body">
+      <p>Building a product and want a second set of eyes? Working through strategy, a tricky business problem, or looking for an advisor? I'm always happy to grab a coffee or a call. Drop me a note.</p>
+      <p class="links"><a href="mailto:nick.pinto@npinto.ca">Email</a><a href="https://www.linkedin.com/in/nickpinto1/">LinkedIn</a><a href="https://x.com/Nick_Unleashed">X / Twitter</a></p>
+    </div>
+  </section>
 
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fa fa-tablet fa-3x"></i>
-            <h3 class="h4 mb-2">Product Management</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fa fa-heart fa-3x"></i>
-            <h3 class="h4 mb-2">Service Design</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fa fa-cog fa-3x"></i>
-            <h3 class="h4 mb-2">New Product Innovation</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fa fa-code fa-3x"></i>
-            <h3 class="h4 mb-2">AI Strategy and Advisory</h3>
-          </div>
-        </div>
-      </div>
-    </div>
 </div>
-
-<div id="experience">
-  <div class="container">
-    <div class="section-title text-center center">
-        <h2>Experience</h2>
-      </div>
-    <div class="row no-gutters">
-      <div class="experience-items">
-        <div class="col-lg-4 col-md-6">
-          <div class="experience-item">
-           <div class="hover-bg">
-              <div class="hover-text">
-                <h4>GLOBALIVE TECHNOLOGY</h4>
-                Head of Product</div>
-              <img src="img/experience/01-small.jpg" class="img-responsive" alt="GLOBALIVE TECHNOLOGY"></div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 app">
-          <div class="experience-item">
-            <div class="hover-bg">
-              <div class="hover-text">
-                <h4>INTEGRATE.AI</h4>
-                Director of Product</div>
-              <img src="img/experience/06-small.jpg" class="img-responsive" alt="Project Title"> </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 web">
-          <div class="experience-item">
-            <div class="hover-bg">
-              <div class="hover-text">
-                <h4>JOSHUA & CLARK</h4>
-                Founder & CEO</div>
-              <img src="img/experience/03-small.jpg" class="img-responsive" alt="Project Title"></div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 web">
-          <div class="experience-item">
-            <div class="hover-bg">
-              <div class="hover-text">
-                <h4>ACCENTURE</h4>
-                Management Consulting Manager</div>
-              <img src="img/experience/04-small.jpg" class="img-responsive" alt="Project Title"></div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 app">
-          <div class="experience-item">
-            <div class="hover-bg">
-              <div class="hover-text">
-                <h4>Shopify</h4>
-                Product Lead</div>
-              <img src="img/experience/02-small.jpg" class="img-responsive" alt="Project Title"></div>         
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 branding">
-          <div class="experience-item">
-            <div class="hover-bg"> 
-              <div class="hover-text">
-               <h4>GLOBALIVE COMMUNICATIONS</h4>
-                Head of Product and Marketing</div>
-              <img src="img/experience/05-small.jpg" class="img-responsive" alt="Project Title"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Contact Section -->
-<div id="contact" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Let's Get In Touch!</h2>
-    </div>
-    <div class="col-md-8 col-md-offset-2">
-      <p>To find out more, drop me an email. Or you can follow my ramblings on Twitter.</p>
-    </div>
-    <div class="col-md-8 col-md-offset-2">
-      <div class="col-md-4"><a href="https://www.linkedin.com/in/nickpinto1/"><i class="fa fa-linkedin fa-3x" style="color:white"></i>
-        <p>Nick Pinto</a></p>
-      </div>
-      <div class="col-md-4"><a href="https://twitter.com/Nick_Unleashed"><i class="fa fa-twitter fa-3x" style="color:white"></i>
-        <p>@Nick_Unleashed</a></p>
-      </div>
-      <div class="col-md-4"><a href="mailto:nick.pinto@npinto.ca"><i class="fa fa-envelope fa-3x" style="color:white"></i>
-        <p>nick.pinto@npinto.ca</a></p>
-      </div>
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</div>
-<div id="footer">
-  <div class="container text-center">
-    <div class="fnav">
-      <p>Copyright &copy; Nick Pinto <script type="text/javascript">document.write(new Date().getFullYear());</script>. Adapted from <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
-    </div>
-  </div>
-</div>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/easypiechart.js"></script> 
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-<script type="text/javascript" src="js/jquery.isotope.js"></script> 
-<script type="text/javascript" src="js/jquery.counterup.js"></script> 
-<script type="text/javascript" src="js/waypoints.js"></script> 
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
-<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
