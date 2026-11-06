@@ -49,6 +49,7 @@
   --link:#2348C9;
   --link-line:#B9C5F0;
   --live:#16925D;
+  --brand:#3364A3;
   --f-text:"Source Serif 4", "Iowan Old Style", Charter, Georgia, serif;
   --f-meta:"Geist Mono", ui-monospace, "SF Mono", Menlo, monospace;
 }
@@ -74,7 +75,8 @@ header.row{align-items:center;margin-bottom:4.5rem}
 .mark img{display:block;width:100%;height:auto}
 @media (max-width:760px){header.row{margin-bottom:3rem}}
 
-h1{font-weight:600;font-size:clamp(2.2rem,5.4vw,3.1rem);line-height:1.08;letter-spacing:-.02em}
+h1{font-weight:700;font-size:clamp(2.45rem,6vw,3.45rem);line-height:1.08;letter-spacing:-.02em}
+.name{color:var(--brand)}
 .sub{margin-top:.9rem;font-size:clamp(1.25rem,2.6vw,1.5rem);line-height:1.35;color:var(--ink-2)}
 .lede{display:flex;flex-direction:column;gap:1.1rem;margin-top:1.6rem;color:var(--ink)}
 
@@ -116,7 +118,7 @@ section.row{padding-top:2.6rem;margin-top:2.6rem;border-top:1px solid var(--rule
   <div class="row">
     <span class="lab">Hello</span>
     <div>
-      <h1>Hey, I'm Nick.</h1>
+      <h1>Hey, I'm <span class="name">Nick</span>.</h1>
       <p class="sub">I'm a product and technology leader, and a builder at heart.</p>
       <div class="lede">
         <p>I'm Chief Product &amp; Technology Officer at <a href="#work">Flexible</a>, a private company that owns and operates a group of Canadian businesses. I work across them to find where product, technology, data and AI can make a real impact, then roll up my sleeves and build it with the teams who run them.</p>
